@@ -12,13 +12,12 @@ def list_maghsoom():
 
 def tedad_aval():
     c=0
-    #i=1
-    #count=0
+
     n2=item
     for i in range(1,n2+1):
         if n2%i==0:
             c+=1
-    #print(c)
+
     return(c)
     
         
@@ -38,5 +37,5 @@ for i in range (1,11):
         result=num
     lm=[]
     count=0
-#print(lm)
+
 print(result,' ',max)
